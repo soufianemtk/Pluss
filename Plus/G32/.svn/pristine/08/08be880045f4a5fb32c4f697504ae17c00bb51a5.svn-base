@@ -1,0 +1,24 @@
+<!-- Banniere -->
+<!-- Always shows a header, even in smaller screens. -->
+  <header class="header-color mdl-layout__header ">
+    <div class="mdl-layout__header-row">
+ 
+<!-- Title -->
+	<span class="header-text-color mdl-layout-title">PLUSS</span>
+  </header>
+
+  <div class="mdl-layout__drawer">
+    <div class="header-menu mdl-layout-title">
+        <img src="images/profil_pictureDEV.jpg" class="profil_picture" >
+        <% User user = (User) request.getSession().getAttribute( "userSession" );%>
+        <% String usermail = user.getEmail(); %>
+        <span class="email"><%=usermail%></span>
+    </div>
+    <nav class="mdl-navigation mdl-layout-spacer">
+        <a class="mdl-navigation__link" href="Main?op=accueil"><i class="icons-nav material-icons">public</i>Accueil</a>
+        <a class="mdl-navigation__link" href="Main?op=profil"><i class="icons-nav material-icons">account_circle</i>Profil</a>
+        <a class="mdl-navigation__link" href="Main?op=synchronisation"><i class="icons-nav material-icons">sync</i>Comptes</a>
+        <a class="mdl-navigation__link" href="Main?op=parametres"><i class="icons-nav material-icons">settings</i>Parametres</a>
+        <div class="mdl-layout-spacer"></div>
+        <a class="mdl-navigation__link" href="images/manuel.pdf"><i class="icons-nav material-icons">help_outline</i>Aide</a>
+    </nav>

@@ -1,0 +1,93 @@
+
+
+/***************** Header *************************/
+
+/* le css du banner proviens en majorité de profil.css */
+
+
+/* boutons "editer" pour changer les photos */
+.bouton-edit-profil{
+	overflow:visible;
+	position: absolute;
+	top: 50%;
+    margin-left: 20%;
+	z-index:6;
+}
+
+.bouton-edit-cover{
+    text-align: right;
+    margin-right: 2em;
+	margin-top : 22em;
+	margin-left: 80%;
+	z-index:6;
+}
+
+.button-spec { 
+  font-size: 14px;
+  background-color: rgba(0,0,0,.6);
+  color: #fff;
+  z-index:6;
+ }
+ 
+.icon-editer {
+	 font-size: 15px;
+	 margin: 2px;
+ }
+
+.imageProfil {
+  width: 150px;
+  height: 150px;
+}
+
+ 
+
+/****************** Bloc principal ********************************/
+.cadre {
+    width: 60%; /* On a indiqué une largeur (obligatoire) */
+    margin: 20px auto;
+	border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+	background-color: #fff ;
+	text-align: center;
+}
+
+.cadre2 {
+	/*border-radius: 2px;*/
+	width: auto;
+    min-height: auto;
+    margin: 20px;
+	padding-top: 5px;
+    /*background-color: #E1F5FE; */
+}
+
+
+/* police des textes des differents champs */
+.text_titre_bloc {
+  line-height: 0.8em;
+  font-size:1.3em;
+  position:absolute;
+ }
+ 
+ .textfield {
+	 width : 100%;
+	 margin-bottom:20px;
+ }
+ 
+
+ /************************* MOBILE *************************/ 
+@media (max-width: 839px) {
+.cadre {
+    width: 100%;
+}
+
+
+.demo-card-wide.mdl-card {
+  margin:auto;
+  min-height: 50px
+}
+.cadre2{
+	margin:10px;
+}
+
+}

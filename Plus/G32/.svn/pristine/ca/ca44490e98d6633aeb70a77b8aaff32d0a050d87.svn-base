@@ -1,0 +1,33 @@
+.column {                                                                                            
+    max-width: 1600px;                                                                                 
+    width: calc(100% - 1px);                                                                           
+	margin: 0 auto;
+}
+.demo-content {
+  border-radius: 2px;
+  padding: 3em 2em;
+}
+.boutton-enregister{
+  text-align: center;
+}
+.social-icons{
+	margin-right: 0.8em;
+	font-size: 2em;
+}
+.login-button{
+    width: 158px;
+    height: 28px;
+}
+h3{
+   text-align: center;
+  }
+@media (max-width: 839px){
+.demo-content {
+    padding: 0 0;
+}
+.mdl-cell {
+    margin: 0;
+}
+.mdl-grid {
+    padding: 8px;
+}

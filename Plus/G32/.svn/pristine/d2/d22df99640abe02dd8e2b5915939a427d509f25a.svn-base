@@ -1,0 +1,91 @@
+/* masque les box par defaut de IE10 */
+h1{
+    border: 1100px;
+    font-family: 'Arial',arial;
+ 	font-weight: 400px;
+  	font-size: 34px;
+	line-height: 40px;
+}
+.page-content {
+  position: absolute;
+  width: 100%;
+}
+/* Bloc principal */
+
+.cadre2{
+  color: black;
+  text-align : left;
+  padding: 30px;
+
+}
+.cadre3{
+  color: black;
+  text-align : left;
+  margin-top: 5px;
+
+}
+.text{
+   color: black;
+  text-align : left;
+
+
+}
+.button{
+  input[type=submit]
+{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+.boutton_param {
+  font-size: 12px;
+  padding: 0px 5px 0px 5px;
+  background-color: #37474F;
+  color: #fff;
+  }
+
+.boutton_param:hover {
+  font-size: 12px;
+  padding: 0px 5px 0px 5px;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+ }
+
+.spacer {
+  padding: 20px;
+}
+
+.barre_colore{
+  background-color: #37474F;
+  border-radius:20%;
+  height: 5px;
+}
+.column {                                                                                            
+  max-width: 1600px;                                                                                 
+  width: calc(100% - 1px);                                                                           
+  margin: 0 auto;                                                                                    
+}
+.demo-content {                                                                                      
+  border-radius: 2px;                                                                                
+  padding: 3em 2em;                                                                                  
+}                                                                                                    
+h3 {                                                                                                 
+   text-align: center;                                                                                
+}
+.demo-layout.is-small-screen .demo-content {                                                         
+  padding: 40px 28px;                                                                                
+}  
+
+@media (max-width: 839px) {                                                                          
+.mdl-cell {                                                                                          
+  margin: 0;                                                                                         
+}                                                                                                    
+h3 {                                                                                                 
+    text-align: center;                                                                              
+}                                                                                                    
+.demo-content{                                                                                       
+    padding: 0 0;                                                                                    
+}
+}

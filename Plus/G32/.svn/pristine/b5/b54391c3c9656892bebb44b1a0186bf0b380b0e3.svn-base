@@ -1,0 +1,58 @@
+/** Gestion formulaire publier **/
+
+.banner_profil{
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute; 
+}
+.banner_zone{
+  width: 100%;
+  height: 25em;
+  padding: 0;
+}
+.banner_position{
+  width:100%;
+}
+.demo-card-image.mdl-card {                                                                          
+  margin: 0 auto;                                                                                    
+  width: 80%;                                                                                        
+  height: 10%;                                                                                       
+}                                                                                                    
+.demo-card-image__filename {                                                                         
+  color: #fff;                                                                                       
+  font-size: 14px;                                                                                   
+  font-weight: 500;                                                                                  
+}
+.infosProfil {
+  display: inline;
+  padding-bottom: 2em;
+  z-index: 5;
+  text-align:center;
+  position: absolute;
+  margin-left: calc(50% - 75px);
+  margin-top: 6em;
+  padding-bottom: 10px;
+}
+.imageProfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  z-index:3;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+.nomsPrenom {
+ font-size: 30px;
+ text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+ color: #fff;
+ text-align: center;
+ font-weight: bold;
+}
+.spacerTitle {
+ margin-top: 2em;
+}
+.editer_profil {
+ margin-top: 2.1em;
+ background-color: rgba(255,255,255,.5);
+}
